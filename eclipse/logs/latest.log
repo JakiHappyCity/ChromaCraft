@@ -1,0 +1,53 @@
+[17:11:17] [main/INFO]: Setting user: Player461
+[17:11:20] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:11:21] [Client thread/ERROR]: Couldn't initialize twitch stream
+[17:11:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ChromaCraft
+[17:11:43] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:11:43] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:11:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ChromaCraft
+[17:11:43] [Sound Library Loader/INFO]: Sound engine started
+[17:11:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:11:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:11:45] [Sound Library Loader/INFO]: Sound engine started
+[17:12:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:12:02] [Server thread/INFO]: Generating keypair
+[17:12:02] [Server thread/INFO]: Converting map!
+[17:12:02] [Server thread/INFO]: Scanning folders...
+[17:12:02] [Server thread/INFO]: Total conversion count is 0
+[17:12:03] [Server thread/INFO]: Preparing start region for level 0
+[17:12:04] [Server thread/INFO]: Preparing spawn area: 4%
+[17:12:05] [Server thread/INFO]: Preparing spawn area: 10%
+[17:12:06] [Server thread/INFO]: Preparing spawn area: 17%
+[17:12:07] [Server thread/INFO]: Preparing spawn area: 23%
+[17:12:08] [Server thread/INFO]: Preparing spawn area: 29%
+[17:12:09] [Server thread/INFO]: Preparing spawn area: 37%
+[17:12:10] [Server thread/INFO]: Preparing spawn area: 47%
+[17:12:11] [Server thread/INFO]: Preparing spawn area: 57%
+[17:12:12] [Server thread/INFO]: Preparing spawn area: 64%
+[17:12:13] [Server thread/INFO]: Preparing spawn area: 73%
+[17:12:14] [Server thread/INFO]: Preparing spawn area: 84%
+[17:12:15] [Server thread/INFO]: Preparing spawn area: 95%
+[17:12:16] [Server thread/INFO]: Changing view distance to 8, from 10
+[17:12:17] [Server thread/INFO]: Player461[local:E:c507b118] logged in with entity id 200 at (-154.5, 69.0, 250.5)
+[17:12:17] [Server thread/INFO]: Player461 joined the game
+[17:12:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2416ms behind, skipping 48 tick(s)
+[17:12:20] [Server thread/INFO]: Player461 has just earned the achievement [Taking Inventory]
+[17:12:20] [Client thread/INFO]: [CHAT] Player461 has just earned the achievement [Taking Inventory]
+[17:12:23] [Client thread/INFO]: Warning: Clientside chunk ticking took 204 ms
+[17:12:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 322 ms
+[17:12:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 328 ms
+[17:12:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 282 ms
+[17:12:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 229 ms
+[17:12:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 242 ms
+[17:13:10] [Server thread/INFO]: Saving and pausing game...
+[17:13:10] [Server thread/INFO]: Saving chunks for level 'Testing I'/Overworld
+[17:13:11] [Server thread/INFO]: Saving chunks for level 'Testing I'/Nether
+[17:13:11] [Server thread/INFO]: Saving chunks for level 'Testing I'/The End
+[17:13:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 196 ms
+[17:14:19] [Client thread/INFO]: Stopping!
+[17:14:19] [Server thread/INFO]: Stopping server
+[17:14:19] [Server thread/INFO]: Saving players
+[17:14:19] [Server thread/INFO]: Saving worlds
+[17:14:19] [Server thread/INFO]: Saving chunks for level 'Testing I'/Overworld
+[17:14:19] [Server thread/INFO]: Saving chunks for level 'Testing I'/Nether
+[17:14:19] [Server thread/INFO]: Saving chunks for level 'Testing I'/The End

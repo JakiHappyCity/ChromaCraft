@@ -1,0 +1,24 @@
+Items:
+item.chromaticum.name=Chromaticum
+
+
+Blocks:
+tile.oreChroma.name=Chroma Ore
+
+
+Gui:
+
+
+
+Chromaticum:
+cc.txt.book.startup=Chromaticum
+cc.txt.book.containedKnowledge=Contains:
+cc.txt.book.tier_0=Tier I
+cc.txt.book.tier_1=Tier II
+cc.txt.book.tier_2=Tier III
+cc.txt.book.tier_3=Tier IV
+cc.txt.book.tier_4=Tier V
+cc.txt.book.edition=Edition:
+cc.txt.book.categories=Categories:
+
+
