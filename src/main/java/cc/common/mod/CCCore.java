@@ -12,6 +12,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -33,6 +34,8 @@ public class CCCore {
     public static final String name = "ChromaCraft";
 
     public static final String clientProxy = "cc.network.proxy.ClientProxy", serverProxy = "cc.network.proxy.CommonProxy";
+
+    public static SimpleNetworkWrapper network;
 
     public static final Logger log = LogManager.getLogger("ChromaCraft");
 

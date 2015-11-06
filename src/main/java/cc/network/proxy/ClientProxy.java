@@ -27,4 +27,10 @@ public class ClientProxy extends CommonProxy {
         Minecraft.getMinecraft().displayGuiScreen(new GuiChromaticum());
     }
 
+    @Override
+    public EntityPlayer getClientPlayer()
+    {
+        return Minecraft.getMinecraft().thePlayer;
+    }
+
 }
