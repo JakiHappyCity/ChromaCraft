@@ -1,4 +1,4 @@
-package cc.client.render.item;
+package cc.common.item;
 
 import java.util.List;
 

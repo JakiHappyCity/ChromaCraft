@@ -16,11 +16,15 @@ public class Config {
 
     public static int oreGenAttempts;
 
+    public static int[] guiID = new int[48];
+
     public static void initialize(File file)
     {
         config = new Configuration(file);
 
         config.addCustomCategoryComment("Info", "This is configuration file of ChromaCraft mod");
+
+        guiID[0] = config.get("GUI","Generic GUI ID", 7321).getInt();
 
         enableNotifierLogging = config.getBoolean("enableNotifierLogging", "Misc", true, "");
         renderStructuresFromAbove = config.getBoolean("renderStructuresFromAbove", "Misc", true, "");

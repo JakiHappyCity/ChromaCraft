@@ -1,9 +1,6 @@
 package cc.common.mod;
 
-import cc.common.init.CoreBlocks;
-import cc.common.init.CoreItems;
-import cc.common.init.CoreRecipes;
-import cc.common.init.CoreResearch;
+import cc.common.init.*;
 import cc.common.world.CCWorldGen;
 import cc.network.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -26,7 +23,12 @@ import java.util.ArrayList;
 /**
  * Created by jakihappycity on 05.11.15.
  */
-@Mod(modid = CCCore.modid, version = CCCore.version, name = CCCore.name)
+@Mod(
+        modid = CCCore.modid,
+        version = CCCore.version,
+        name = CCCore.name,
+        guiFactory = "cc.client.regular.ModConfigGuiHandler"
+    )
 public class CCCore {
 
     public static final String modid = "cc";
@@ -58,7 +60,7 @@ public class CCCore {
 
     public File modDir;
 
-    @SidedProxy(clientSide = clientProxy, serverSide = serverProxy)
+    @SidedProxy(clientSide = clientProxy, serverSide = serverProxy, modId = modid)
     public static CommonProxy proxy;
 
     public static CCCore instance;
@@ -68,6 +70,13 @@ public class CCCore {
     {
         log.debug("Loading " + name);
         instance = this;
+        if(proxy != null)
+        {
+            proxy.registerRenderInformation();
+        }else
+        {
+
+        }
         ModInfo(event.getModMetadata());
         this.modDir = event.getModConfigurationDirectory();
         try {
@@ -83,6 +92,7 @@ public class CCCore {
         CoreItems.Init();
         CoreRecipes.Init();
         CoreResearch.Init();
+        CoreTile.Init();
     }
 
     @Mod.EventHandler

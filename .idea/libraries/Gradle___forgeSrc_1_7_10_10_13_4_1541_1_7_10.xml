@@ -2,8 +2,6 @@
   <library name="Gradle: :forgeSrc:1.7.10-10.13.4.1541-1.7.10">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1541-1.7.10/forgeSrc-1.7.10-10.13.4.1541-1.7.10.jar!/" />
-      <root url="jar://$USER_HOME$/Загрузки/CodeChickenCore-1.7.10-1.0.7.47-dev.jar!/" />
-      <root url="jar://$USER_HOME$/Загрузки/NotEnoughItems-1.7.10-1.0.5.118-dev.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

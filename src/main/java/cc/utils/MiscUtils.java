@@ -3,6 +3,8 @@ package cc.utils;
 import cc.common.mod.CCCore;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.IInventory;
@@ -13,6 +15,7 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -30,6 +33,16 @@ public class MiscUtils {
     public static void bindTexture(String mod, String texture)
     {
         DrawUtils.bindTexture(mod, texture);
+    }
+
+    /**
+     * <b>Deprecated!</b> Use DrawUtils from now!
+     */
+    @Deprecated
+    @SideOnly(Side.CLIENT)
+    public static void drawTexture(int x, int y, IIcon icon, int width, int height, float zLevel)
+    {
+        DrawUtils.drawTexture(x, y, icon, width, height, zLevel);
     }
 
     /**
@@ -163,6 +176,66 @@ public class MiscUtils {
         }else
         {
             Notifier.notifyDebug("Trying to send packet "+pkt+" to player "+player+"||"+player.getDisplayName()+" on Client side, probably a bug, ending the packet send try");
+        }
+    }
+
+    /**
+     * Used to drop items from IInventory when the block is broken.
+     * @param par1World - the World object
+     * @param par2 - X coordinate of the block
+     * @param par3 - Y coordinate of the block
+     * @param par4 - Z coordinate of the block
+     */
+    public static void dropItemsOnBlockBreak(World par1World, int par2, int par3, int par4, Block par5, int par6)
+    {
+        //Was causing too much issues, had to add a try/catch statement...
+        try
+        {
+            IInventory inv = (IInventory)par1World.getTileEntity(par2, par3, par4);
+
+            if (inv != null)
+            {
+                for (int j1 = 0; j1 < inv.getSizeInventory(); ++j1)
+                {
+                    ItemStack itemstack = inv.getStackInSlot(j1);
+
+                    if (itemstack != null)
+                    {
+                        float f = par1World.rand.nextFloat() * 0.8F + 0.1F;
+                        float f1 = par1World.rand.nextFloat() * 0.8F + 0.1F;
+                        float f2 = par1World.rand.nextFloat() * 0.8F + 0.1F;
+
+                        while (itemstack.stackSize > 0)
+                        {
+                            int k1 = par1World.rand.nextInt(21) + 10;
+
+                            if (k1 > itemstack.stackSize)
+                            {
+                                k1 = itemstack.stackSize;
+                            }
+
+                            itemstack.stackSize -= k1;
+                            EntityItem entityitem = new EntityItem(par1World, (double)((float)par2 + f), (double)((float)par3 + f1), (double)((float)par4 + f2), new ItemStack(itemstack.getItem(), k1, itemstack.getItemDamage()));
+
+                            if (itemstack.hasTagCompound())
+                            {
+                                entityitem.getEntityItem().setTagCompound((NBTTagCompound)itemstack.getTagCompound().copy());
+                            }
+
+                            float f3 = 0.05F;
+                            entityitem.motionX = (double)((float)par1World.rand.nextGaussian() * f3);
+                            entityitem.motionY = (double)((float)par1World.rand.nextGaussian() * f3 + 0.2F);
+                            entityitem.motionZ = (double)((float)par1World.rand.nextGaussian() * f3);
+                            par1World.spawnEntityInWorld(entityitem);
+                        }
+                    }
+                }
+            }
+        }catch(Exception ex)
+        {
+            Notifier.notifyCustomMod("DummyCore", "[ERROR]Trying to drop items upon block breaking, but caught an exception:");
+            ex.printStackTrace();
+            return;
         }
     }
 

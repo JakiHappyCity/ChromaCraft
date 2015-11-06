@@ -2,27 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c0957f-7c5b-4439-82e0-cba126fdda2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/ChromaInfusionRecipe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/ITEHasChroma.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/ITERequiresChroma.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaInfuser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaGeneric.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaInfuser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/network/PacketNBT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/DummyPacketIMSG_Tile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/ScheduledServerAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/ServerToClientSyncAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/TileStatTracker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/UnformedItemStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/IChromaCrystalClickable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/ITEStoresChroma.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/api/ITETransfersChroma.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaInfuser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaTower.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiCommon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiModConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/gui/element/GuiChromaStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/client/regular/ModConfigGuiHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaTower.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/init/CoreTile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaInfuser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaTower.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/invertory/SlotChromaCrystal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/item/ItemChromaCrystal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/item/ItemDrop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaTower.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cc/client/render/item/ItemChromaticum.java" afterPath="$PROJECT_DIR$/src/main/java/cc/common/item/ItemChromaticum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-11-05-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-11-05-7.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/DIM-1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/DIM1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Testing I/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Testing I/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___forgeSrc_1_7_10_10_13_4_1541_1_7_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___forgeSrc_1_7_10_10_13_4_1541_1_7_10.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/cc.cfg" afterPath="$PROJECT_DIR$/eclipse/config/cc.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java" afterPath="$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java" afterPath="$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java" afterPath="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java" afterPath="$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -55,103 +93,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoreItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java">
+      <file leaf-file-name="CCCore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#3338#3346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChromaInfusionRecipeHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java">
+      <file leaf-file-name="ClientProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#1793#1794#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1944#1945#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChromaInfusionRecipe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ChromaInfusionRecipe.java">
+      <file leaf-file-name="GuiChromaTower.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaTower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="145" column="34" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.29220778">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2352#2371#0" expanded="true" />
-                <element signature="e#3730#3731#0" expanded="true" />
-                <element signature="e#3766#3767#0" expanded="true" />
-                <element signature="e#3813#3814#0" expanded="true" />
-                <element signature="e#3848#3849#0" expanded="true" />
-                <element signature="e#3903#3904#0" expanded="true" />
-                <element signature="e#3932#3933#0" expanded="true" />
-                <element signature="e#4529#4559#0" expanded="true" />
-                <element signature="e#6671#6672#0" expanded="true" />
-                <element signature="e#6704#6705#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockChromaInfuser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaInfuser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TileChromaInfuser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaInfuser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4448052">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#440#459#0" expanded="true" />
-                <element signature="e#528#537#0" expanded="true" />
-                <element signature="e#631#642#0" expanded="true" />
-                <element signature="e#700#709#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,6 +142,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="JakiHappyCity" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -719,56 +697,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/integration/versionChecker/Check.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreRecipes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/Notifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/CategoryEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/DiscoveryEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/ApiCore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/PageEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/StructureBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/api/StructureRecipe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiButtonNoSound.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/MathUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/Coord2D.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/DummyStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/DataStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/DummyData.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/Coord3D.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/DrawUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/client/render/item/ItemChromaticum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaticum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreResearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/block/OreChroma.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/block/ModBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/world/CCWorldGen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/world/WorldGenChromaOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/cc/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaticumRecipeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaRecipeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/api/ChromaInfusionRecipe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaInfuser.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/api/ITERequiresChroma.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/api/ITEHasChroma.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/TileStatTracker.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaGeneric.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/DummyPacketIMSG_Tile.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/ServerToClientSyncAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/ScheduledServerAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/network/PacketNBT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/utils/UnformedItemStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaInfuser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiCommon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/element/GuiChromaStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaInfuser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/api/IChromaCrystalClickable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/api/ITEStoresChroma.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/api/ITETransfersChroma.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/item/ItemChromaCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaTower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaInfuser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/invertory/SlotChromaCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/item/ItemDrop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaTower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaTower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaTower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/gui/GuiModConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/client/regular/ModConfigGuiHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java" />
       </list>
     </option>
   </component>
@@ -1301,6 +1280,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invertory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1368,10 +1415,6 @@
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1403,41 +1446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChromaCraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChromaCraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="regular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1501,6 +1510,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChromaCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1520,10 +1567,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="cc.network" />
-      <recent name="cc.api" />
       <recent name="cc.common.tile" />
       <recent name="cc.common.block" />
+      <recent name="cc.api" />
+      <recent name="cc.network" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
@@ -1881,6 +1928,13 @@
       <option name="number" value="Default" />
       <updated>1446717998172</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a little bit of utils.&#10;For Utils thx DummyCore. Credits: DummyThinking Team">
+      <created>1446805359384</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1446805359384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1889,10 +1943,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1901,16 +1957,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1924,6 +1978,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a little bit of utils.&#10;For Utils thx DummyCore. Credits: DummyThinking Team" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a little bit of utils.&#10;For Utils thx DummyCore. Credits: DummyThinking Team" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1933,278 +1991,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/world/CCWorldGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.74489796">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreRecipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/Notifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3603897">
-          <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2338#2339#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2656#2657#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2759#2760#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2859#2860#0" expanded="true" />
-            <element signature="e#3354#3355#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/CategoryEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.512987">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#717#718#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ApiCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.737013">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#335#350#0" expanded="false" />
-            <element signature="e#1124#1148#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/DiscoveryEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0292208">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#507#518#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/PageEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7532467">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-            <element signature="e#1020#1021#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/StructureBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26298702">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/StructureRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3149351">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#416#432#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#823#824#0" expanded="false" />
-            <element signature="e#853#854#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/DataStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5551948">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/Coord2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8766234">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/MathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6363636">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#2376#2377#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#3004#3005#0" expanded="true" />
-            <element signature="e#3041#3042#0" expanded="true" />
-            <element signature="e#3268#3269#0" expanded="true" />
-            <element signature="e#3331#3332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiButtonNoSound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="22" column="120" selection-start-line="22" selection-start-column="120" selection-end-line="22" selection-end-column="120" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/DummyData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8181818">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/Coord3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/DrawUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.686688">
-          <caret line="339" column="90" selection-start-line="339" selection-start-column="90" selection-end-line="339" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1102#1127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaticum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="32.118507">
-          <caret line="1107" column="39" selection-start-line="1107" selection-start-column="39" selection-end-line="1107" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1944#1952#0" expanded="false" />
-            <element signature="e#2015#2025#0" expanded="false" />
-            <element signature="e#16922#16930#0" expanded="false" />
-            <element signature="e#33962#33970#0" expanded="false" />
-            <element signature="e#41356#41364#0" expanded="false" />
-            <element signature="e#41833#41841#0" expanded="false" />
-            <element signature="e#46424#46432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/render/item/ItemChromaticum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9577922">
-          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1541-1.7.10/forgeSrc-1.7.10-10.13.4.1541-1.7.10-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33279222">
-          <caret line="448" column="40" selection-start-line="448" selection-start-column="29" selection-end-line="448" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/block/ModBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1541-1.7.10/forgeSrc-1.7.10-10.13.4.1541-1.7.10-sources.jar!/net/minecraft/block/BlockRedstoneOre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116883114">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreResearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23376623">
@@ -2217,14 +2003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32142857">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17532468">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2249,18 +2027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Загрузки/NotEnoughItems-1.7.10-1.0.5.118-dev.jar!/codechicken/nei/recipe/TemplateRecipeHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34863946">
@@ -2274,64 +2040,6 @@
         <state vertical-scroll-proportion="0.26298702">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ChromaInfusionRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="34" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2352#2371#0" expanded="true" />
-            <element signature="e#3730#3731#0" expanded="true" />
-            <element signature="e#3766#3767#0" expanded="true" />
-            <element signature="e#3813#3814#0" expanded="true" />
-            <element signature="e#3848#3849#0" expanded="true" />
-            <element signature="e#3903#3904#0" expanded="true" />
-            <element signature="e#3932#3933#0" expanded="true" />
-            <element signature="e#4529#4559#0" expanded="true" />
-            <element signature="e#6671#6672#0" expanded="true" />
-            <element signature="e#6704#6705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaInfuser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2359,17 +2067,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32792208">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3201#3209#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2404,16 +2101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/ServerToClientSyncAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46753246">
@@ -2443,41 +2130,6 @@
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8766234">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8181818">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2524,24 +2176,388 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/cfg/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59090906">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1541-1.7.10/forgeSrc-1.7.10-10.13.4.1541-1.7.10-sources.jar!/net/minecraft/client/renderer/Tessellator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14610389">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058441557">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ChromaInfusionRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2792208">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2352#2371#0" expanded="true" />
+            <element signature="e#3730#3731#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3813#3814#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3932#3933#0" expanded="true" />
+            <element signature="e#4529#4559#0" expanded="true" />
+            <element signature="e#6671#6672#0" expanded="true" />
+            <element signature="e#6704#6705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaInfuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8116883">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/IChromaCrystalClickable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14610389">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ITEStoresChroma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14610389">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/api/ITETransfersChroma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14610389">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/block/BlockChromaTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5032467">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/item/ItemChromaticum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6201299">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/CCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/element/GuiChromaStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26948053">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaInfuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#748#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaInfuser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4448052">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#459#0" expanded="true" />
             <element signature="e#528#537#0" expanded="true" />
             <element signature="e#631#642#0" expanded="true" />
             <element signature="e#700#709#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/item/ItemDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0811689">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/invertory/SlotChromaCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46753246">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaInfuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/cc/textures/gui/gui_generic.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/integration/nei/ChromaInfusionRecipeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/utils/MiscUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1541-1.7.10/forgeSrc-1.7.10-10.13.4.1541-1.7.10-sources.jar!/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2159" column="0" selection-start-line="2159" selection-start-column="0" selection-end-line="2159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/init/CoreItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/item/ItemChromaCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13311689">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/tile/TileChromaTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6931818">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiModConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75974023">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#385#0" expanded="true" />
+            <element signature="e#631#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/regular/ModConfigGuiHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/mod/CCCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3338#3346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/network/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/common/invertory/ContainerChromaTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.512987">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/network/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11038961">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cc/client/gui/GuiChromaTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29220778">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package cc.integration.nei;
+/*package cc.integration.nei;
 
 import cc.api.ChromaInfusionRecipe;
 import codechicken.nei.PositionedStack;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  * Created by jakihappycity on 06.11.15.
- */
+ *//*
 public class ChromaInfusionRecipeHandler extends TemplateRecipeHandler {
 
     public class ChromaInfusionCraftingPair extends CachedRecipe
@@ -66,3 +66,4 @@ public class ChromaInfusionRecipeHandler extends TemplateRecipeHandler {
     }
 
 }
+*/
