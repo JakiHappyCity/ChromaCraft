@@ -36,4 +36,14 @@ public class ApiCore {
      */
     public static Hashtable<String, DiscoveryEntry> discoveriesByIS = new Hashtable<String, DiscoveryEntry>();
 
+    /**
+     * A usual amount of Chroma all generators would have
+     */
+    public static final float GENERATOR_MAX_Chroma_GENERIC = 10000F;
+
+    /**
+     * A usual amount of Chroma all devices would have
+     */
+    public static final float DEVICE_MAX_CHROMA_GENERIC = 5000F;
+
 }

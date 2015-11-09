@@ -1,6 +1,8 @@
 package cc.common.init;
 
 import cc.common.tile.TileChromaTower;
+import cc.common.tile.TileHeatGenerator;
+import cc.common.tile.TileMagicalPulverizer;
 import cc.utils.cfg.Config;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.tileentity.TileEntity;
@@ -19,6 +21,8 @@ public class CoreTile {
     public static void Init()
     {
         addTileToMapping(TileChromaTower.class);
+        addTileToMapping(TileHeatGenerator.class);
+        addTileToMapping(TileMagicalPulverizer.class);
     }
 
     public static void addTileToMapping(Class<? extends TileEntity> tile)

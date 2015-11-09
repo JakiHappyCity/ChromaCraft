@@ -32,12 +32,12 @@ public class PacketNBT implements IMessage {
     @Override
     public void fromBytes(ByteBuf buf) {
         theTag = ByteBufUtils.readTag(buf);
-        packetID = theTag.getInteger("ec3packetData.id");
+        packetID = theTag.getInteger("ссpacketData.id");
     }
 
     @Override
     public void toBytes(ByteBuf buf) {
-        theTag.setInteger("ec3packetData.id", packetID);
+        theTag.setInteger("ссpacketData.id", packetID);
         ByteBufUtils.writeTag(buf, theTag);
     }
 

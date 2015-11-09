@@ -31,7 +31,6 @@ public abstract class TileChromaGeneric extends TileEntity implements ITERequire
     int Chroma;
     int maxChroma = 100;
     UUID uuid = UUID.randomUUID();
-    float balance;
     public int innerRotation;
     private ItemStack[] items = new ItemStack[1];
     private TileStatTracker tracker;
@@ -70,7 +69,7 @@ public abstract class TileChromaGeneric extends TileEntity implements ITERequire
             else
             if(!this.worldObj.isRemote && this.tracker.tileNeedsSyncing())
             {
-                MiscUtils.sendPacketToAllAround(worldObj, getDescriptionPacket(), xCoord, yCoord, zCoord, this.worldObj.provider.dimensionId, 32);
+                //MiscUtils.sendPacketToAllAround(worldObj, getDescriptionPacket(), xCoord, yCoord, zCoord, this.worldObj.provider.dimensionId, 32);
             }
             syncTick = 60;
         }else
@@ -79,7 +78,7 @@ public abstract class TileChromaGeneric extends TileEntity implements ITERequire
         if(requestSync && this.worldObj.isRemote)
         {
             requestSync = false;
-            CCUtils.requestScheduledTileSync(this, CCCore.proxy.getClientPlayer());
+            //CCUtils.requestScheduledTileSync(this, CCCore.proxy.getClientPlayer());
         }
     }
 

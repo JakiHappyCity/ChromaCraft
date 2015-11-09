@@ -18,7 +18,7 @@ public class ContainerChromaTower extends Container {
     public ContainerChromaTower(InventoryPlayer par1InventoryPlayer, TileEntity par2)
     {
         this.chromaTower = par2;
-        this.addSlotToContainer(new SlotChromaCrystal((IInventory) chromaTower, 0, 29, 32));
+        this.addSlotToContainer(new SlotChromaCrystal((IInventory) chromaTower, 0, 26, 8));
         int i;
 
         for (i = 0; i < 3; ++i)

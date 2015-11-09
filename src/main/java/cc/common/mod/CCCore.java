@@ -2,6 +2,7 @@ package cc.common.mod;
 
 import cc.common.init.*;
 import cc.common.world.CCWorldGen;
+import cc.network.PacketNBT;
 import cc.network.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.ModMetadata;
@@ -9,8 +10,10 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.common.registry.GameRegistry;
+import io.netty.channel.ChannelHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import org.apache.logging.log4j.LogManager;
@@ -70,13 +73,6 @@ public class CCCore {
     {
         log.debug("Loading " + name);
         instance = this;
-        if(proxy != null)
-        {
-            proxy.registerRenderInformation();
-        }else
-        {
-
-        }
         ModInfo(event.getModMetadata());
         this.modDir = event.getModConfigurationDirectory();
         try {
@@ -88,11 +84,21 @@ public class CCCore {
                 Config.save();
             }
         }
+        NetworkRegistry.INSTANCE.registerGuiHandler(this, proxy);
+        if(proxy != null)
+        {
+            proxy.registerRenderInformation();
+            //proxy.registerTileEntitySpecialRenderer();
+        }else
+        {
+
+        }
         CoreBlocks.Init();
         CoreItems.Init();
         CoreRecipes.Init();
         CoreResearch.Init();
         CoreTile.Init();
+        //PotionRegistry.registerPotions();
     }
 
     @Mod.EventHandler
@@ -104,8 +110,8 @@ public class CCCore {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        log.debug(name + " has loaded");
         GameRegistry.registerWorldGenerator(new CCWorldGen(), 16);
+        log.debug(name + " has loaded");
     }
 
     public static void ModInfo(ModMetadata m)

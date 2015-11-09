@@ -1,6 +1,8 @@
 package cc.utils;
 
 import cc.common.mod.CCCore;
+import cpw.mods.fml.common.ObfuscationReflectionHelper;
+import cpw.mods.fml.relauncher.ReflectionHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -13,11 +15,14 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
+import net.minecraft.potion.Potion;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 import java.util.List;
 
 /**
@@ -233,9 +238,53 @@ public class MiscUtils {
             }
         }catch(Exception ex)
         {
-            Notifier.notifyCustomMod("DummyCore", "[ERROR]Trying to drop items upon block breaking, but caught an exception:");
+            Notifier.notifyCustomMod("ChromaCraft", "[ERROR]Trying to drop items upon block breaking, but caught an exception:");
             ex.printStackTrace();
             return;
+        }
+    }
+
+    /**
+     * Extends the default mc potionArray(which is declared as public static final Potion[] potionTypes = new Potion[32]) by the given amount
+     * @param byAmount - how much to extends for
+     * @return the first free index in the new potionArray.
+     */
+    public static int extendPotionArray(int byAmount)
+    {
+        int potionOffset = Potion.potionTypes.length;
+        Potion[] potionTypes = new Potion[potionOffset + byAmount];
+        System.arraycopy(Potion.potionTypes, 0, potionTypes, 0, potionOffset);
+        setPrivateFinalValue(Potion.class,null,potionTypes, ObfuscationReflectionHelper.remapFieldNames(Potion.class.getName(), new String[] {"potionTypes","field_76425_a","a"}));
+        for(int i = 0; i < Potion.potionTypes.length; ++i)
+            if(Potion.potionTypes[i] == null)
+                return i;
+
+        return -1;
+    }
+
+    /**
+     * Allows changes of variables declared like private final || private static final. Advanced. Do not use if you do not know what you are doing!
+     * Sometimes considered as a dirty hacking of the java code. I agree. There is nothing more dirty, than just removing the FINAL modifier of the variable. It's like Java can't even do anything, no matter the protection given.
+     * This should not be done. However, in vanilla MC it is pretty much the only way to do so, so I can't help it.
+     * The only thing, that would be worse is using ASM to remotely change the compiled final variable. That is the most disgusting thing you can do with Java, I believe.
+     * @param classToAccess - the class in wich you are changing the variable
+     * @param instance - if you want to modify non-static field you should put the instance of the class here. Leave null for static
+     * @param value - what you actually want to be set in the variable field
+     * @param fieldNames - the names of the field you are changing. Should be both for obfuscated and compiled code.
+     */
+    public static void setPrivateFinalValue(Class<?> classToAccess, Object instance, Object value, String fieldNames[])
+    {
+        Field field = ReflectionHelper.findField(classToAccess, ObfuscationReflectionHelper.remapFieldNames(classToAccess.getName(), fieldNames));
+        try
+        {
+            Field modifiersField = Field.class.getDeclaredField("modifiers");
+            modifiersField.setAccessible(true);
+            modifiersField.setInt(field, field.getModifiers() & ~Modifier.FINAL);
+            field.set(instance, value);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
         }
     }
 

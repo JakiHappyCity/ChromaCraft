@@ -1,9 +1,11 @@
 Items:
 item.chromaticum.name=Chromaticum
+item.crystalChroma.name=Chroma Crystal
 
 
 Blocks:
 tile.oreChroma.name=Chroma Ore
+tile.chromaTower.name=Chroma Tower
 
 
 Gui:

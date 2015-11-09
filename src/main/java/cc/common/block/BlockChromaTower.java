@@ -70,21 +70,21 @@ public class BlockChromaTower extends BlockContainer {
     }
 
     @Override
-    public boolean onBlockActivated(World par1World, int par2, int par3, int par4, EntityPlayer par5EntityPlayer, int par6, float par7, float par8, float par9)
+    public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int par6, float par7, float par8, float par9)
     {
-        if (par1World.isRemote)
+        if (world.isRemote)
         {
             return true;
         }else
         {
-            if(!par5EntityPlayer.isSneaking())
+            if(!player.isSneaking())
             {
-                if(par1World.getBlockMetadata(par2, par3, par4) == 0)
+                if(world.getBlockMetadata(x, y, z) == 0)
                 {
-                    par5EntityPlayer.openGui(CCCore.instance, Config.guiID[0], par1World, par2, par3, par4);
+                    player.openGui(CCCore.instance, Config.guiID[0], world, x, y, z);
                 }else
                 {
-                    par5EntityPlayer.openGui(CCCore.instance, Config.guiID[0], par1World, par2, par3-1, par4);
+                    player.openGui(CCCore.instance, Config.guiID[0], world, x, y-1, z);
                 }
                 return true;
             }else
